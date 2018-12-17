@@ -70,7 +70,11 @@ function findItemByName(name){
 
 function removeFromCart(item) {
   let index = findItemByName(item);
-  cart.splice 
+  if (index){
+  cart.splice
+  } else {
+    return 
+  }
 }
 
 function placeOrder(cardNumber) {
