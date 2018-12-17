@@ -71,9 +71,10 @@ function findItemByName(name){
 function removeFromCart(item) {
   let index = findItemByName(item);
   if (index){
-  cart.splice
+  cart = cart.splice(index, 1);
+  return cart;
   } else {
-    return ""
+    return "That item is not in your cart.";
   }
 }
 
