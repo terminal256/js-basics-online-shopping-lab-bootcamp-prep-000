@@ -23,7 +23,10 @@ function viewCart() {
   if (len === 0){
   
   }
-  if (len === 0){
+  if (len === 1){
+  
+  }
+  if (len === 2){
   
   }
   
