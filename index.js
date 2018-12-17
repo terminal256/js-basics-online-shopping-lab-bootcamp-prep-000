@@ -23,7 +23,7 @@ function viewCart() {
     return `${name} at $${dollars}`;
   }
   function same(msg){
-    return 
+    return `
   }
   let len = cart.len;
   if (len === 0){
