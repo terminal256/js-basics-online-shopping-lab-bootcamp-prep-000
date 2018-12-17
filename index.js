@@ -30,7 +30,7 @@ function addToCart(item) {
   }
 
 function viewCart() {
-  let len = cart.len;
+  let len = cart.length;
   if (len === 0){
   return "Your shopping cart is empty.";
   }
