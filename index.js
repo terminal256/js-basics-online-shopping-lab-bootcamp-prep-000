@@ -19,7 +19,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  let len = cart.len;
+  if (len === 0){
+  
+  }
 }
 
 function total() {
