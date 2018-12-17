@@ -29,7 +29,9 @@ function viewCart() {
   if (len === 2){
   
   }
+  if (len >= 3){
   
+  }
 }
 
 function total() {
