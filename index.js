@@ -19,7 +19,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  
+  function viewCartAux(name, dollars){
+    return `${name} at $${dollars}`;
+  }
   let len = cart.len;
   if (len === 0){
   return "Your shopping cart is empty.";
