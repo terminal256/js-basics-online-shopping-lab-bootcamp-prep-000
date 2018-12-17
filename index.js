@@ -23,17 +23,20 @@ function viewCart() {
     return `${name} at $${dollars}`;
   }
   function same(msg){
-    return `
+    return `In your cart, you have ${msg}.`
+  }
+  function indexName(n){
+    
   }
   let len = cart.len;
   if (len === 0){
   return "Your shopping cart is empty.";
   }
   if (len === 1){
-  
+  return msg(cart[0].itemName);
   }
   if (len === 2){
-  
+  return msg();
   }
   if (len >= 3){
   
