@@ -10,6 +10,10 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+  let obj = 
+  {itemName: item
+    itemprice:   
+  };
  cart.push(item);
 }
 
