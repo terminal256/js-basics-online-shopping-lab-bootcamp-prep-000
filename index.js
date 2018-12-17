@@ -22,7 +22,7 @@ function viewCart() {
   function viewCartAux(name, dollars){
     return `${name} at $${dollars}`;
   }
-  function same(msg){
+  function msg(msg){
     return `In your cart, you have ${msg}.`
   }
   function indexAux(n){
