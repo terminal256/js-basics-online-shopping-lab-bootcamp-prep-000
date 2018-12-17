@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
   let obj = 
   { itemName: item,
-    itemprice: 1 + getRandomInt(99)  
+    itemPrice: 1 + getRandomInt(99)  
   };
  cart.push(item);
  return `${item} has been added to your cart.`;
@@ -26,8 +26,8 @@ function viewCart() {
     return `In your cart, you have ${msg}.`
   }
   function indexAux(n){
-    let obj = 
-    viewCartAux(cart[0].itemName, cart[0].itemName)
+    let obj = cart[n];
+    return viewCartAux(obj.itemName, obj.itemPrice)
   }
   let len = cart.len;
   if (len === 0){
