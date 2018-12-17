@@ -58,6 +58,10 @@ function total() {
   return total;
 }
 
+function findItemByName(name){
+  
+}
+
 function removeFromCart(item) {
   // write your code here
 }
