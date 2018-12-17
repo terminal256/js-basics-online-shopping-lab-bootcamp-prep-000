@@ -15,6 +15,7 @@ function addToCart(item) {
     itemprice: 1 + getRandomInt(99)  
   };
  cart.push(item);
+ return ``;
 }
 
 function viewCart() {
