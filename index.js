@@ -22,8 +22,8 @@ function viewCart() {
   function viewCartAux(name, dollars){
     return `${name} at $${dollars}`;
   }
-  function msg(msg){
-    return `In your cart, you have ${msg}.`
+  function msg(m){
+    return `In your cart, you have ${m}.`
   }
   function indexAux(n){
     let obj = cart[n];
