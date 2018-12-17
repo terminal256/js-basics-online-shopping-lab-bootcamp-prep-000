@@ -22,6 +22,9 @@ function viewCart() {
   function viewCartAux(name, dollars){
     return `${name} at $${dollars}`;
   }
+  function same(msg){
+    return 
+  }
   let len = cart.len;
   if (len === 0){
   return "Your shopping cart is empty.";
