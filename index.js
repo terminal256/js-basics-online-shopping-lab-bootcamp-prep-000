@@ -62,6 +62,7 @@ function total() {
 function findItemByName(name){
   let len = cart.length;
   for(let i = 0; i < len; i++){
+    console.log(cart[i]);
     if(cart[i].itemName === name){
       return i;
     }
