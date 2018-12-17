@@ -18,17 +18,9 @@ function addToCart(item) {
  return `${item} has been added to your cart.`;
 }
 
+
+
 function viewCart() {
-  function viewCartAux(name, dollars){
-    return `${name} at $${dollars}`;
-  }
-  function msg(m){
-    return `In your cart, you have ${m}.`
-  }
-  function indexAux(n){
-    let obj = cart[n];
-    return viewCartAux(obj.itemName, obj.itemPrice)
-  }
   let len = cart.len;
   if (len === 0){
   return "Your shopping cart is empty.";
