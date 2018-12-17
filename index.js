@@ -25,8 +25,8 @@ function viewCart() {
   function same(msg){
     return `In your cart, you have ${msg}.`
   }
-  function indexName(n){
-    
+  function indexAux(n){
+    viewCartAux(cart[0].itemName, )
   }
   let len = cart.len;
   if (len === 0){
