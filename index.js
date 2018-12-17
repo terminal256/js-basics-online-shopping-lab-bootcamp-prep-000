@@ -73,7 +73,7 @@ function removeFromCart(item) {
   if (index){
   cart.splice
   } else {
-    return 
+    return ""
   }
 }
 
