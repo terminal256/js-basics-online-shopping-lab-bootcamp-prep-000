@@ -41,7 +41,7 @@ function viewCart() {
   return msg(`${indexAux(0)}, and ${indexAux(1)}`);
   }
   if (len >= 3){
-    let end = `and ${indexAux(len)}`;
+    let end = `and ${indexAux(len - 1)}`;
     let str2 = "";
   for(let i = 0; i < len - 1; i++){
     str2 = `${str2}${indexAux(i)}, `;
