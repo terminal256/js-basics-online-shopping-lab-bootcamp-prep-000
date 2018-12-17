@@ -11,8 +11,8 @@ function setCart(c) {
 
 function addToCart(item) {
   let obj = 
-  {itemName: item
-    itemprice:   
+  { itemName: item,
+    itemprice: 1 + getRandomInt(99)  
   };
  cart.push(item);
 }
@@ -33,3 +33,6 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
