@@ -14,8 +14,8 @@ function addToCart(item) {
   { itemName: item,
     itemPrice: 1 + getRandomInt(99)  
   };
- cart.push(item);
- return `${obj} has been added to your cart.`;
+ cart.push(obj);
+ return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
