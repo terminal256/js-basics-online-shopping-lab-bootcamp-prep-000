@@ -50,7 +50,12 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+  let len = cart.length;
+  let total = 0;
+  for(let i = 0; i < len; i++){
+    total += cart[i].itemPrice;
+  }
+  return total;
 }
 
 function removeFromCart(item) {
