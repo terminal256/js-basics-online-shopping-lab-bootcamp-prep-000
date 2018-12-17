@@ -23,6 +23,10 @@ function viewCart() {
   if (len === 0){
   
   }
+  if (len === 0){
+  
+  }
+  
 }
 
 function total() {
