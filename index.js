@@ -18,9 +18,8 @@ function addToCart(item) {
  return `${item} has been added to your cart.`;
 }
 
-function viewCartAux
-
 function viewCart() {
+  
   let len = cart.len;
   if (len === 0){
   return "Your shopping cart is empty.";
