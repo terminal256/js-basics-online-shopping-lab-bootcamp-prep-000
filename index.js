@@ -59,7 +59,10 @@ function total() {
 }
 
 function findItemByName(name){
-  
+  let len = cart.length;
+  for(let i = 0; i < len; i++){
+    if(){}
+  }
 }
 
 function removeFromCart(item) {
